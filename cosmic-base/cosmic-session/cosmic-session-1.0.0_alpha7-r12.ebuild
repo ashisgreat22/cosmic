@@ -22,6 +22,7 @@ IUSE+=" accessibility +greeter cups"
 
 PATCHES=(
 	"${FILESDIR}/backport-131.patch"
+	"${FILESDIR}/137.patch"
 	)
 
 RDEPEND+="
